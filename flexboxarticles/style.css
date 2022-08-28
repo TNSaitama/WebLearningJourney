@@ -1,0 +1,125 @@
+html {
+    box-sizing: border-box;
+    background-color: rgb(236, 242, 248);
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    
+  }
+  
+  p,h3{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+.felx-section{
+    display: flex;
+    padding: 5px;
+   gap: 1rem;
+   width: 800px;
+   
+   
+}
+  .profile-picture{
+    width: 30px;
+    border-radius: 30px;
+  }
+  .profile{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .name{
+    font-weight: 600;
+    font-size: 12px;
+  }
+  .job{
+    font-size: 10px;
+    color: rgb(172, 170, 170);
+  }
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 75%;
+}
+.rightside{
+    width: 25%;
+    height: 400px;
+}
+.firstrow{
+    display: flex;
+    gap:1rem;
+    height: 44%;
+}
+.secondrow{
+    display: flex;
+    height: 40%;
+    gap: 1rem;
+}
+
+.daniel{
+    padding: 5px;
+    background: rgb(117,65,200);
+    color: white;
+    flex-basis: 66%;
+    
+}
+.jonathan{
+    padding: 5px;
+    background: rgb(72,85,106);
+    color: white;
+    flex-basis: 33%;
+
+}
+.jeanette{
+    padding: 5px;
+    background: white;
+    flex-basis: 33%;
+    
+
+}
+.patrick{
+    padding: 5px;
+    background: rgb(25,33,46);
+    color: white;
+    flex-basis: 66%;
+    
+    
+    
+}
+.kira{
+    padding: 5px;
+    background: white;
+   
+}
+.content:nth-child(2){
+    font-size: 12px;
+}
+article{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: -1px 1px 10px 1px rgba(96, 96, 96, 0.3);
+}
