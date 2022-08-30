@@ -21,8 +21,8 @@ body {
   align-self: center;
 }
 .searchsvg {
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
 }
 .top-header {
     margin: 0 auto;
@@ -34,11 +34,12 @@ max-width: 1240px;
 }
 .first-row-header {
   display: flex;
+  flex: wrap;
   justify-content: space-between;
   align-items: center;
 }
 .social-media {
-    width: 190px;
+    padding: 5px;
     float: right;
     display: flex;
     justify-content: space-evenly;
@@ -189,8 +190,26 @@ button {
 .thumb-picture:hover {
   width: 100px;
   height: 100px;
-  transition: witdh 0.5s, height 0.5s;
+  transition: width 0.5s, height 0.5s;
 }
 
-@media (max-witdh: 600px) {
+@media screen and (max-width: 600px) {
+.logo{
+  font-size: 45px;
+}
+
+.facebook-icon,.twitter-icon,.instagram-icon,.rss-icon {
+  height: 15px;
+  width: 15px;
+}
+.searchsvg{
+  height: 15px;
+  width: 15px;
+}
+.first-row-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
 }
