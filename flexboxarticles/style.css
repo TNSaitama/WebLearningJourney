@@ -27,11 +27,12 @@ html {
     flex-direction: column;
     padding: 10px;
     border-radius: 5px;
+    justify-content: center;
+   align-items: center;
   }
 
 .felx-section{
     display: flex;
-
    gap: 1rem;
    width: 800px;
    height: 400px;
